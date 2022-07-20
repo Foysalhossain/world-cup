@@ -4,6 +4,7 @@
 /* common style or utilities */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* header styles */
@@ -164,4 +165,42 @@ body {
 
 .transfer-comment {
     margin-left: 25px;
+}
+
+/* footer area style */
+
+footer {
+    background-color: #161616;
+    text-align: center;
+    padding: 80px 0 50px;
+}
+
+footer hr {
+    width: 80%;
+    height: 1px;
+    background-color: rgba(235, 235, 235, 0.21);
+    border: none;
+}
+
+footer h2 {
+    color: #FFFFFF;
+}
+
+.footer-menu {
+    margin: 30px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #B9B9B9;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.social {
+    color: #FFFFFF;
+}
+
+.fa-brands {
+    padding: 0 20px;
 }
