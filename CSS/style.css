@@ -204,3 +204,83 @@ footer h2 {
 .fa-brands {
     padding: 0 20px;
 }
+
+/*-------------------
+    Media Queries
+ ------------------- */
+
+/* Tablet Device */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* header area */
+    .header-main h1 {
+        font-size: 36px;
+    }
+
+    .header-main p {
+        padding-right: 20px;
+        margin-bottom: 32px;
+    }
+
+    .half-width {
+        margin-top: 10px;
+    }
+
+    .half-width img {
+        width: 125%;
+    }
+
+    /* main area */
+    .info-section {
+        flex-direction: column;
+        margin: 50px auto;
+    }
+
+    /* button style */
+    .main-button {
+        flex-direction: row;
+        background: none;
+        height: 90px;
+        margin-top: 0;
+    }
+
+    .main-button a {
+        padding: 16px 20px;
+        margin: 0 10px;
+    }
+
+    .info-btn {
+        border: 1px solid #B9B9B9;
+    }
+
+    /* blog style */
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* For responsive pages */
+    .responsive-btn {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .responsive-btn a {
+        text-decoration: none;
+        background-color: #DD0000;
+        color: #FFFFFF;
+        padding: 16px 30px;
+        border-radius: 5px;
+        transition: 1s;
+        border: 1px solid #DD0000;
+    }
+
+    /* footer style */
+    footer {
+        padding: 50px 0 50px;
+    }
+
+    .footer-menu {
+        padding: 0 75px;
+    }
+
+}
