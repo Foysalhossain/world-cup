@@ -316,41 +316,41 @@ footer h2 {
     .header-main p {
         padding-right: 0;
     }
-}
 
-/* button style */
-.info-section {
-    flex-direction: column;
-    margin: 0 auto;
-}
+    /* button style */
+    .info-section {
+        flex-direction: column;
+        margin: 0 auto;
+    }
 
-.main-button {
-    background: none;
-}
+    .main-button {
+        background: none;
+    }
 
-.main-button a {
-    padding: 16px 20px;
-    margin: 0 10px;
-}
-
-
-.info-btn {
-    border: 1px solid #B9B9B9;
-}
+    .main-button a {
+        padding: 16px 20px;
+        margin: 0 10px;
+    }
 
 
-/* blog area style */
-.blogs {
-    grid-template-columns: repeat(1, 1fr);
-}
+    .info-btn {
+        border: 1px solid #B9B9B9;
+    }
 
-/* footer area style */
-.footer-menu {
-    display: flex;
-    flex-direction: column;
-}
 
-.footer-menu a {
-    margin-left: 0;
-    margin: 10px auto;
+    /* blog area style */
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer area style */
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu a {
+        margin-left: 0;
+        margin: 10px auto;
+    }
 }
