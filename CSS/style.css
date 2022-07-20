@@ -167,6 +167,11 @@ body {
     margin-left: 25px;
 }
 
+/* For Responsive Pages */
+.responsive-btn {
+    display: none;
+}
+
 /* footer area style */
 
 footer {
@@ -209,7 +214,7 @@ footer h2 {
     Media Queries
  ------------------- */
 
-/* Tablet Device */
+/* Tablet Device Style */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     /* header area */
@@ -258,7 +263,7 @@ footer h2 {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* For responsive pages */
+    /* For responsive pages style */
     .responsive-btn {
         text-align: center;
         margin-top: 50px;
@@ -283,4 +288,69 @@ footer h2 {
         padding: 0 75px;
     }
 
+}
+
+/* Mobile Device Style */
+@media screen and (max-width: 767px) {
+
+    /* header area style */
+    .header-main {
+        flex-direction: column;
+        padding: 10px 40px 0;
+        text-align: center;
+    }
+
+    .half-width {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .half-width img {
+        margin-left: 15px;
+    }
+
+    .header-main h1 {
+        font-size: 28px;
+    }
+
+    .header-main p {
+        padding-right: 0;
+    }
+}
+
+/* button style */
+.info-section {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.main-button {
+    background: none;
+}
+
+.main-button a {
+    padding: 16px 20px;
+    margin: 0 10px;
+}
+
+
+.info-btn {
+    border: 1px solid #B9B9B9;
+}
+
+
+/* blog area style */
+.blogs {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* footer area style */
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-menu a {
+    margin-left: 0;
+    margin: 10px auto;
 }
