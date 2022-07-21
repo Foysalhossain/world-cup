@@ -202,12 +202,13 @@ footer h2 {
     font-size: 14px;
 }
 
-.social {
+.social a {
+    text-decoration: none;
     color: #FFFFFF;
 }
 
 .fa-brands {
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 /*-------------------
